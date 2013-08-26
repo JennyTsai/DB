@@ -59,7 +59,6 @@
 2.  __修改__
 
 3.  __刪除__
-
     * 此刪除方法會先判斷撰寫者要閃哪個 **Table** ,在做刪除動作。
         `delete(String where_string,String user_table)`
 
