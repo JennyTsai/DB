@@ -6,18 +6,9 @@
     
     +包含 _SQLiteOpenHelper_ 的 __onCreate()__、 __onUpgrade__ 方法。
 
-        public void onCreate(SQLiteDatabase db) {
-        // TODO Auto-generated method stub
-    	db.execSQL(us); //建立student
-		db.execSQL(tar); //建立target
-		db.execSQL(sstudy); //建立study
-        }
-        -------------------------------------------------------------------------------
-        @Override
-        public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-		//oldVersion=舊的資料庫版本；newVersion=新的資料庫版本
-		// TODO Auto-generated method stub
-        }
+    `public void onCreate(SQLiteDatabase db)`
+
+    `public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)`
 
 
     +資料庫的 *開啟並寫入* ： __openToWrite()__ 、 *開啟並讀* ： __openToRead()__ 、
