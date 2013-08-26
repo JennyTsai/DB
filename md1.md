@@ -34,7 +34,7 @@
         + v4 → In_Learn_Time   (開始學習時間)
     * **target 新增**
 
-     `public long target_insert(String v1,String v2,String v3,String v4,String v5)`
+     `target_insert(String v1,String v2,String v3,String v4,String v5)`
      
         + v1 → TID             (標的編號)
         + v2 → MapID           (地圖編號)
@@ -43,7 +43,7 @@
         + v5 → Material_Url    (教材url)
     * **study 新增**
 
-        `public long study_insert(String v1,String v2,String v3,String v4,String v5,String v6,String v7,String v8)`
+        `study_insert(String v1,String v2,String v3,String v4,String v5,String v6,String v7,String v8)`
     
         + v1 → TID             (標的編號)
         + v2 → UID             (使用者帳號)
@@ -61,5 +61,12 @@
 2.  __修改__
 
 3.  __刪除__
+
+    * 此刪除方法會先判斷撰寫者要閃哪個 **Table** ,在做刪除動作。
+        `delete(String where_string,String user_table)`
+
+        + where_string → WHERE條件
+        + user_table → 表格名稱
+
 
 4.  __查詢__
