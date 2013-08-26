@@ -75,9 +75,12 @@
     * **study 修改**
         
         `study_update(String user_table,String newv1,String newv2,String newv3,String newv4,String where_string)`
-
-            + user_table → table名稱
-
+        + user_table → table名稱
+        + newv1 → QID
+        + newv2 → Answer
+        + newv3 → Answer_Time
+        + newv4 → Out_TargetTime
+        + where_string → WHERE條件
 
         
 3.  __刪除__
