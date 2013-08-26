@@ -28,10 +28,11 @@
     
          `public long user_insert(String v1,String v2,String v3,String v4)`
         
-        v1 →
-        v2 →
-        v3 →
-        v4 →
+        v1 → UID
+        v2 → UNickname
+        v3 → ULogged_code
+        v4 → In_Learn_Time
+
     * **target 新增**
     
          `public long target_insert(String v1,String v2,String v3,String v4,String v5)`
