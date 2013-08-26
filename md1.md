@@ -59,17 +59,8 @@
 2.  __修改__
     * 分成2種修改方法：update()、study_update()
     * __這2個方法()中只要加上 table名稱、要修改的內容、WHERE條件字串等參數即可使用。__
-    * **study 修改**
-    
-        `study_update(String user_table,String newv1,String newv2,String newv3,String newv4,String where_string)`
-        + user_table → table名稱
-        + newv1 → QID
-        + newv2 → Answer
-        + newv3 → Answer_Time
-        + newv4 → Out_TargetTime
-        + where_string → WHERE條件
     * **user、target 修改**
-        
+    
         `update(String user_table,String newv1,String newv2,String where_string)`
         + user 參數
             + user_table → table名稱
@@ -81,17 +72,17 @@
             + newv1 → Map_Url
             + newv2 → Material_Url
             + where_string → WHERE條件
-        
     * **study 修改**
-    
+        
         `study_update(String user_table,String newv1,String newv2,String newv3,String newv4,String where_string)`
-        + user_table → table名稱
-        + newv1 → QID
-        + newv2 → Answer
-        + newv3 → Answer_Time
-        + newv4 → Out_TargetTime
-        + where_string → WHERE條件
+            + user_table → table名稱
+            + newv1 → QID
+            + newv2 → Answer
+            + newv3 → Answer_Time
+            + newv4 → Out_TargetTime
+            + where_string → WHERE條件
 
+        
 3.  __刪除__
     * 此刪除方法會先判斷撰寫者要閃哪個 **Table** ,在做刪除動作。
         
