@@ -1,4 +1,4 @@
-#Client端資料庫
+#Client 端資料庫
 
 *   Client端資料庫分成 **2個實體(user、target)** 和 **1個關連(study)** 。
 *   分成兩個Java檔, 分別：ClientDBHelper.java、ClientDBProvider.java
@@ -59,6 +59,23 @@
 2.  __修改__
     * 分成2種修改方法：update()、study_update()
     * __這2個方法()中只要加上 table名稱、要修改的內容、WHERE條件字串等參數即可使用。__
+    * **user、target 修改**
+        `update(String user_table,String newv1,String newv2,String where_string)`
+        + user 參數
+            + user_table → table名稱
+            + newv1 → ULogged_code
+            + newv2 → In_Learn_Time
+            + where_string → WHERE條件
+        + target 參數
+            + user_table → table名稱
+            + newv1 → Map_Url
+            + newv2 → Material_Url
+            + where_string → WHERE條件
+        
+    * 
+    * 
+    * 
+    * 
 
 3.  __刪除__
     * 此刪除方法會先判斷撰寫者要閃哪個 **Table** ,在做刪除動作。
