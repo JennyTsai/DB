@@ -18,7 +18,8 @@
         }
 
 
-    +資料庫的 *開啟並寫入* ：__openToWrite()__ 、 *開啟並讀* ：__openToRead()__ 、*開啟 ：__onOpen(db)__、  *關閉* ：__close() __ 。
+    +資料庫的 *開啟並寫入* ： __openToWrite()__ 、 *開啟並讀* ： __openToRead()__ 、
+    	      *開啟* ： __onOpen(db)__、  *關閉* ： __close() __ 。
     
 *   ClientDBProvider.java
     
