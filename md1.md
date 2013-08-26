@@ -28,7 +28,7 @@
     
          `public long user_insert(String v1,String v2,String v3,String v4)`
     * **target 新增**
-         `public long target_insert(String v1,String v2,String v3,String v4,String v5)`
+        `public long target_insert(String v1,String v2,String v3,String v4,String v5)`
     * **study 新增**
          `public long study_insert(String v1,String v2,String v3,String v4,String v5,String v6,String v7,String v8)`
 2.  __修改__
