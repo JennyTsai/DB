@@ -1,7 +1,26 @@
 #Server端資料庫
 
-    * 分成兩個Java檔, 分別：ClientDBHelper.java、ClientDBProvider.java
-    * **ClientDBHelper.java
+*   分成兩個Java檔, 分別：ClientDBHelper.java、ClientDBProvider.java
+*   ClientDBHelper.java    
+    +包含 _SQLiteOpenHelper_ 的__onCreate()__、__onUpgrade__方法
+
+        public void onCreate(SQLiteDatabase db) {
+    	// TODO Auto-generated method stub
+		db.execSQL(us); //建立student
+		db.execSQL(tar); //建立target
+		db.execSQL(sstudy); //建立study
+        }
+        -------------------------------------------------------------------------------
+        @Override
+        public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+		//oldVersion=舊的資料庫版本；newVersion=新的資料庫版本
+		// TODO Auto-generated method stub
+        }
+
+
+    +資料庫的 *開啟並寫入* __openToWrite()__
+
+*   ClientDBProvider.java
     
     
 ## 功能
