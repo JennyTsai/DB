@@ -14,7 +14,7 @@
     + 資料庫的 *開啟並寫入* ： __openToWrite()__ 、 *開啟並讀* ： __openToRead()__ 、
     	      *開啟* ： __onOpen(db)__、  *關閉* ： __close()__ 。
     
-    + onCreate和onUpgrade是在資料庫不存在or版本更改時,會自動run的程式方法,使用者不會使用到；至於其他4個方法,直接呼叫方法名稱+()即可使用。
+    + onCreate和onUpgrade是在資料庫不存在or版本更改時,會自動run的程式方法,使用者不會使用到；至於其他4個方法, _直接呼叫方法名稱+()_ 即可使用。
 
 *   **ClientDBProvider.java**
     
