@@ -75,11 +75,10 @@
     * **study 修改**
         
         `study_update(String user_table,String newv1,String newv2,String newv3,String newv4,String where_string)`
-            
+
+
             + user_table → table名稱
-            + newv1 → ULogged_code
-            + newv2 → In_Learn_Time
-            + where_string → WHERE條件
+
 
         
 3.  __刪除__
