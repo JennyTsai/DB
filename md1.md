@@ -60,6 +60,7 @@
     * 分成2種修改方法：update()、study_update()
     * __這2個方法()中只要加上 table名稱、要修改的內容、WHERE條件字串等參數即可使用。__
     * **user、target 修改**
+        
         `update(String user_table,String newv1,String newv2,String where_string)`
         + user 參數
             + user_table → table名稱
