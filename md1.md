@@ -42,7 +42,12 @@
         + v4 → MaterialID      (教材編號)
         + v5 → Material_Url    (教材url)
     * **study 新增**
-    * **<新增> 的3個方法, 只要在()內加入正確對應的參數即可!!**
+    
+        `public long study_insert(String v1,String v2,String v3,String v4,String v5,String v6,String v7,String v8)`
+    
+    
+    
+    * **<新增> 的3個方法, 只要在()內加入正確對應的參數即可使用!!**
 2.  __修改__
 
 3.  __刪除__
