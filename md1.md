@@ -45,6 +45,7 @@
     
     `public long study_insert(String v1,String v2,String v3,String v4,String v5,String v6,String v7,String v8)`
     
+    
         + v1 → TID             (標的編號)
         + v2 → UID             (使用者帳號)
         + v3 → QID             (答題編號)
