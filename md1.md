@@ -4,17 +4,17 @@
 *   分成兩個Java檔, 分別：ClientDBHelper.java、ClientDBProvider.java
 *   **ClientDBHelper.java**
     
-    +包含 _SQLiteOpenHelper_ 的 __onCreate()__、 __onUpgrade__ 方法。
+    + 包含 _SQLiteOpenHelper_ 的 __onCreate()__、 __onUpgrade__ 方法。
 
-    `public void onCreate(SQLiteDatabase db)`
+        `public void onCreate(SQLiteDatabase db)`
 
-    `public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)`
+        `public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)`
 
 
-    +資料庫的 *開啟並寫入* ： __openToWrite()__ 、 *開啟並讀* ： __openToRead()__ 、
+    + 資料庫的 *開啟並寫入* ： __openToWrite()__ 、 *開啟並讀* ： __openToRead()__ 、
     	      *開啟* ： __onOpen(db)__、  *關閉* ： __close()__ 。
     
-    +第一個+為最開始資料庫不存在時,會自動run的程式方法,使用者不會使用到；第二個   +的4個方法,直接呼叫方法名稱+()即可使用。
+    + 第一個+為最開始資料庫不存在時,會自動run的程式方法,使用者不會使用到；第二個   +的4個方法,直接呼叫方法名稱+()即可使用。
 
 *   **ClientDBProvider.java**
     
