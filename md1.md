@@ -43,7 +43,7 @@
         + v5 → Material_Url    (教材url)
     * **study 新增**
     
-    `public long study_insert(String v1,String v2,String v3,String v4,String v5,String v6,String v7,String v8)`
+        `public long study_insert(String v1,String v2,String v3,String v4,String v5,String v6,String v7,String v8)`
         
         
 2.  __修改__
