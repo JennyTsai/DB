@@ -2,7 +2,7 @@
 
 *   分成兩個Java檔, 分別：ClientDBHelper.java、ClientDBProvider.java
 *   ClientDBHelper.java    
-    +包含 _SQLiteOpenHelper_ 的__onCreate()__、__onUpgrade__方法
+    +包含 _SQLiteOpenHelper_ 的 __onCreate()__、__onUpgrade__方法
 
         public void onCreate(SQLiteDatabase db) {
     	// TODO Auto-generated method stub
@@ -19,7 +19,7 @@
 
 
     +資料庫的 *開啟並寫入* ： __openToWrite()__ 、 *開啟並讀* ： __openToRead()__ 、
-    	      *開啟* ： __onOpen(db)__、  *關閉* ： __close() __ 。
+    	      *開啟* ： __onOpen(db)__、  *關閉* ： __close()__ 。
     
 *   ClientDBProvider.java
     
