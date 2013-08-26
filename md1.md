@@ -28,19 +28,19 @@
     
      `public long user_insert(String v1,String v2,String v3,String v4)`
     
-        + v1 → UID (帳號)
-        + v2 → UNickname (暱稱)
-        + v3 → ULogged_code (登入碼)
-        + v4 → In_Learn_Time (開始學習時間)
+        + v1 → UID             (帳號)
+        + v2 → UNickname       (暱稱)
+        + v3 → ULogged_code    (登入碼)
+        + v4 → In_Learn_Time   (開始學習時間)
     * **target 新增**
 
      `public long target_insert(String v1,String v2,String v3,String v4,String v5)`
      
-        + v1 → TID
-        + v2 → MapID
-        + v3 → Map_Url
-        + v4 → MaterialID
-        + v4 → Material_Url
+        + v1 → TID             (標的編號)
+        + v2 → MapID           (地圖編號)
+        + v3 → Map_Url         (地圖url)
+        + v4 → MaterialID      (教材編號)
+        + v4 → Material_Url    (教材url)
 
 2.  __修改__
 
