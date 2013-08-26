@@ -41,13 +41,10 @@
         + v3 → Map_Url         (地圖url)
         + v4 → MaterialID      (教材編號)
         + v5 → Material_Url    (教材url)
-    * **study 新增**
+    * **study 新增
     
     
     
-    
-    
-    * **新增的3個方法, 只要在()內加入正確對應的參數即可！！**
     
     
     
