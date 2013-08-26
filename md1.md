@@ -76,10 +76,8 @@
         
         `study_update(String user_table,String newv1,String newv2,String newv3,String newv4,String where_string)`
             + user_table → table名稱
-            + newv1 → QID
-            + newv2 → Answer
-            + newv3 → Answer_Time
-            + newv4 → Out_TargetTime
+            + newv1 → ULogged_code
+            + newv2 → In_Learn_Time
             + where_string → WHERE條件
 
         
