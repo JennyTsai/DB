@@ -24,6 +24,7 @@
 
 1.  __新增__
     * 個別新增改3張表(user、target、study), 所以會有3個新增方法。
+    * __<新增> 的3個方法, 只要在()內加入正確對應的參數即可使用!!__
     * **user 新增**
     
      `public long user_insert(String v1,String v2,String v3,String v4)`
@@ -54,9 +55,6 @@
         + v7 → Out_TargetTime  (離開標的時間)
         + v8 → TCheck          (有無正確到學習點)
         
-* 
-    * __<新增> 的3個方法, 只要在()內加入正確對應的參數即可使用!!__
-    
     
 2.  __修改__
 
