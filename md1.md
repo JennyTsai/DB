@@ -27,6 +27,10 @@
     * **user 新增**
     
          `public long user_insert(String v1,String v2,String v3,String v4)`
+        v1 →
+        v2 →
+        v3 →
+        v4 →
     * **target 新增**
     
          `public long target_insert(String v1,String v2,String v3,String v4,String v5)`
