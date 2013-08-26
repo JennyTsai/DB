@@ -94,6 +94,7 @@
 
 4.  __查詢__
     * 填入對應的參數即可使用。
+    * 結果返回一字串陣列。
         
         `search(String user_table,String search_item,String where_string)`
         + user_table → table名稱
