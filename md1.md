@@ -76,7 +76,6 @@
         
         `study_update(String user_table,String newv1,String newv2,String newv3,String newv4,String where_string)`
 
-
             + user_table → table名稱
 
 
