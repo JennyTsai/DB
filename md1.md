@@ -43,16 +43,9 @@
         + v5 → Material_Url    (教材url)
     * **study 新增**
     
-        `public long study_insert(String v1,String v2,String v3,String v4,String v5,String v6,String v7,String v8)`
     
-        + v1 → TID             (標的編號)
-        + v2 → UID             (使用者帳號)
-        + v3 → QID             (答題編號)
-        + v4 → Answer          (答題對錯)
-        + v5 → Answer_Time     (回答時間)
-        + v6 → In_TargetTime   (進入標的時間)
-        + v7 → Out_TargetTime  (離開標的時間)
-        + v8 → TCheck          (有無正確到學習點)
+    
+    
     
     * **新增的3個方法, 只要在()內加入正確對應的參數即可！！**
     
