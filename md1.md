@@ -1,6 +1,6 @@
 #Client 端資料庫
 
-*   Client端資料庫分成 **2個實體(user、target)** 和 **1個關連(study)** 。
+*   Client 端資料庫分成 **2個實體(user、target)** 和 **1個關連(study)** 。
 *   分成兩個Java檔, 分別：ClientDBHelper.java、ClientDBProvider.java
 *   **ClientDBHelper.java**
     
@@ -93,3 +93,9 @@
 
 
 4.  __查詢__
+    * 填入對應的參數即可使用。
+        
+        `search(String user_table,String search_item,String where_string)`
+        + user_table → table名稱
+        + search_item → 要搜尋項目
+        + where_string → WHERE條件字串
