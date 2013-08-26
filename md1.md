@@ -32,7 +32,16 @@
         + v2 → UNickname
         + v3 → ULogged_code
         + v4 → In_Learn_Time
- 
+    * **target 新增**
+
+     `public long target_insert(String v1,String v2,String v3,String v4,String v5)`
+     
+        + v1 → TID
+        + v2 → MapID
+        + v3 → Map_Url
+        + v4 → MaterialID
+        + v4 → Material_Url
+
 2.  __修改__
 
 3.  __刪除__
