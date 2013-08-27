@@ -106,7 +106,7 @@
 ## Server 端資料庫名稱及欄位名稱對照表
 
 
-*   __chu_user__
+*   __chu_user__ ( 使用者 Table )
 
 |       欄位名稱 (English)    | 欄位名稱 (Chinese)|    DataType   |  NULL |    KEY    |
 |-----------------------------|-------------------|---------------|-------|-----------|
@@ -122,7 +122,7 @@
 |           UNickname         |         暱稱      |   varchar(20) |   Y   |           |
 |             UEmail          |         信箱      |   varchar(50) |   Y   |           |
 
-*   __chu_target__
+*   __chu_target__ ( 標的 Table )
 
 |       欄位名稱 (English)    |       欄位名稱 (Chinese)       |    DataType    |  NULL |    KEY    |
 |-----------------------------|--------------------------------|----------------|-------|-----------|
@@ -140,7 +140,7 @@
 |             PLj             |          人數上限              |    int(200)    |   N   |           |
 |              Mj             |          目前人數              |    int(200)    |   N   |           |
 
-*   __chu_question__
+*   __chu_question__ ( 題目 Table )
 
 |       欄位名稱 (English)    |       欄位名稱 (Chinese)       |    DataType    |  NULL |        KEY         |
 |-----------------------------|--------------------------------|----------------|-------|--------------------|
@@ -148,6 +148,21 @@
 |             QA              |          問題答案              |   varchar(10)  |   N   |                    |
 |            Q_Url            |          題目URL               |   varchar(150) |   N   |                    |
 |             TID             |          標的編號              |    int(10)     |   N   |  UNIQUE & FOREIGN  |
+
+
+*   __chu_theme__ ( 主題 Table )
+
+|       欄位名稱 (English)    |       欄位名稱 (Chinese)       |    DataType    |  NULL |    KEY    |
+|-----------------------------|--------------------------------|----------------|-------|-----------|
+|            ThemeID          |         主題序號               |    int(10)     |   N   |  PRIMARY  |
+|           ThemeName         |         主題名稱               |   varchar(15)  |   N   |           |
+|     theme_Learn_DateTime    | 本次學習此主題發生的日期時間   |    datetime    |   N   |           |
+|        Theme_LearnTotal     |   學習此主題要花的總時間(hr)   |    int(10)     |   N   |           |
+|       Theme_Introduction    |           描述                 |   varchar(70)  |   N   |           |
+
+
+
+
 
 
 
