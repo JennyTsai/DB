@@ -161,6 +161,17 @@
 |       Theme_Introduction    |           描述                 |   varchar(70)  |   N   |           |
 
 
+*   __chu_group__ ( 群組 Table )
+
+|       欄位名稱 (English)    |       欄位名稱 (Chinese)       |    DataType    |  NULL |    KEY    |
+|-----------------------------|--------------------------------|----------------|-------|-----------|
+|              GID            |          群組編號              |    varchar(30) |   N   |  PRIMARY  |
+|             GName           |          群組名稱              |    varchar(15) |   N   |           |
+|          Gauth_admin        |         管理員權限             |    tinyint(1)  |   N   |           |
+|          GCompetence        |                                |    varchar(10) |   N   |           |
+
+
+
 *   __chu_belong__ ( 屬於 Table ) → 主題、標的間關係
 
 |       欄位名稱 (English)    |       欄位名稱 (Chinese)       |    DataType    |  NULL |        KEY         |
