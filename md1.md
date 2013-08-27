@@ -108,11 +108,24 @@
 
 *   chu_user
 
-| 欄位名稱 (English)| 欄位名稱 (Chinese)|
-|-------------------|-------------------|
-|        UID        |      使用者帳號   |
-|        UID        |      使用者帳號   |
-|        UID        |      使用者帳號   |
-|        UID        |      使用者帳號   |
-|        UID        |      使用者帳號   |
-|        UID        |      使用者帳號   |
+|       欄位名稱 (English)    | 欄位名稱 (Chinese)|
+|-----------------------------|-------------------|
+|              UID            |      使用者帳號   |
+|              GID            |       標的編號    |
+|           UPassword         |         密碼      |
+|          ULogged_code       |        登入碼     |
+|         ULast_In_Time       |     最後登入時間  |
+|          UBuild_Time        |     帳號建立時間  |
+|            UEnabled         |       啟用狀態    |
+|         In_Learn_Time       |     開始學習時間  |
+|          UReal_Name         |       真實姓名    |
+|           UNickname         |         暱稱      |
+|             UEmail          |         信箱      |
+
+
+
+
+
+
+
+
