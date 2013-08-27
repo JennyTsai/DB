@@ -124,21 +124,21 @@
 
 *   __chu_target__
 
-|       欄位名稱 (English)    |       欄位名稱 (Chinese)       |  NULL |    KEY    |
-|-----------------------------|--------------------------------|-------|-----------|
-|              TID            |          標的編號              |   N   |  PRIMARY  |
-|             TName           |          標的名稱              |   N   |           |
-|           TLearn_Time       |          學習時間              |   N   |           |
-|             MapID           |           地圖ID               |   N   |           |
-|            Map_Url          |           地圖URL              |   N   |           |
-|           FloorName         |    學習標的所在的樓層名稱      |   N   |           |
-|            BlockName        |    學習標的所在的區塊名稱      |   N   |           |
-|            BlockMap         | 學習標的所在的樓層區塊地圖名稱 |   N   |           |
-|           CourseName        |    學習標的所在的地圖名稱      |   N   |           |
-|           MaterialID        |           教材ID               |   N   |           |
-|          Material_Url       |           教材URL              |   N   |           |
-|             PLj             |          人數上限              |   N   |           |
-|              Mj             |          目前人數              |   N   |           |
+|       欄位名稱 (English)    |       欄位名稱 (Chinese)       |    DataType    |  NULL |    KEY    |
+|-----------------------------|--------------------------------|----------------|-------|-----------|
+|              TID            |          標的編號              |    int(10)     |   N   |  PRIMARY  |
+|             TName           |          標的名稱              |   varchar(15)  |   N   |           |
+|           TLearn_Time       |          學習時間              |    int(10)     |   N   |           |
+|             MapID           |           地圖ID               |    int(10)     |   N   |           |
+|            Map_Url          |           地圖URL              |   varchar(150) |   N   |           |
+|           FloorName         |    學習標的所在的樓層名稱      |   varchar(50)  |   N   |           |
+|            BlockName        |    學習標的所在的區塊名稱      |   varchar(50)  |   N   |           |
+|            BlockMap         | 學習標的所在的樓層區塊地圖名稱 |   varchar(50)  |   N   |           |
+|           CourseName        |    學習標的所在的地圖名稱      |   varchar(50)  |   N   |           |
+|           MaterialID        |           教材ID               |    int(10)     |   N   |           |
+|          Material_Url       |           教材URL              |   varchar(150) |   N   |           |
+|             PLj             |          人數上限              |    int(200)    |   N   |           |
+|              Mj             |          目前人數              |    int(200)    |   N   |           |
 
 
 
