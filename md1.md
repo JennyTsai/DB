@@ -140,6 +140,14 @@
 |             PLj             |          人數上限              |    int(200)    |   N   |           |
 |              Mj             |          目前人數              |    int(200)    |   N   |           |
 
+*   __chu_question__
+
+|       欄位名稱 (English)    |       欄位名稱 (Chinese)       |    DataType    |  NULL |        KEY         |
+|-----------------------------|--------------------------------|----------------|-------|--------------------|
+|             QID             |          題目編號              |    int(10)     |   N   |      PRIMARY       |
+|             QA              |          問題答案              |   varchar(10)  |   N   |                    |
+|            Q_Url            |          題目URL               |   varchar(150) |   N   |                    |
+|             TID             |          標的編號              |    int(10)     |   N   |  UNIQUE & FOREIGN  |
 
 
 
