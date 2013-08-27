@@ -167,7 +167,7 @@
 |-----------------------------|--------------------------------|----------------|-------|-----------|
 |              GID            |          群組編號              |    varchar(30) |   N   |  PRIMARY  |
 |             GName           |          群組名稱              |    varchar(15) |   N   |           |
-|          Gauth_admin        |         管理員權限             |    tinyint(1)  |   N   |           |
+|          Gauth_admin        |                                |    tinyint(1)  |   N   |           |
 |          GCompetence        |                                |    varchar(10) |   N   |           |
 
 
