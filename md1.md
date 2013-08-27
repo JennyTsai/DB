@@ -108,19 +108,19 @@
 
 *   __chu_user__
 
-|       欄位名稱 (English)    | 欄位名稱 (Chinese)|  NULL |    KEY    |
-|-----------------------------|-------------------|-------|-----------|
-|              UID            |      使用者帳號   |   N   |  PRIMARY  |
-|              GID            |       標的編號    |   N   |  FOREIGN  |
-|           UPassword         |         密碼      |   N   |           |
-|          ULogged_code       |        登入碼     |   Y   |           |
-|         ULast_In_Time       |     最後登入時間  |   Y   |           |
-|          UBuild_Time        |     帳號建立時間  |   N   |           |
-|            UEnabled         |       啟用狀態    |   N   |           |
-|         In_Learn_Time       |     開始學習時間  |   N   |           |
-|          UReal_Name         |       真實姓名    |   Y   |           |
-|           UNickname         |         暱稱      |   Y   |           |
-|             UEmail          |         信箱      |   Y   |           |
+|       欄位名稱 (English)    | 欄位名稱 (Chinese)|    DataType   |  NULL |    KEY    |
+|-----------------------------|-------------------|---------------|-------|-----------|
+|              UID            |      使用者帳號   |   varchar(30) |   N   |  PRIMARY  |
+|              GID            |       標的編號    |   varchar(30) |   N   |  FOREIGN  |
+|           UPassword         |         密碼      |   varchar(40) |   N   |           |
+|          ULogged_code       |        登入碼     |   varchar(32) |   Y   |           |
+|         ULast_In_Time       |     最後登入時間  |    timestamp  |   Y   |           |
+|          UBuild_Time        |     帳號建立時間  |    timestamp  |   N   |           |
+|            UEnabled         |       啟用狀態    |    tinyint(1) |   N   |           |
+|         In_Learn_Time       |     開始學習時間  |    datetime   |   N   |           |
+|          UReal_Name         |       真實姓名    |   varchar(20) |   Y   |           |
+|           UNickname         |         暱稱      |   varchar(20) |   Y   |           |
+|             UEmail          |         信箱      |   varchar(50) |   Y   |           |
 
 *   __chu_target__
 
