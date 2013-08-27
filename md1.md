@@ -108,38 +108,38 @@
 
 *   __chu_user__
 
-|       欄位名稱 (English)    | 欄位名稱 (Chinese)|  NULL |
-|-----------------------------|-------------------|-------|
-|              UID            |      使用者帳號   |   N   |
-|              GID            |       標的編號    |   N   |
-|           UPassword         |         密碼      |   N   |
-|          ULogged_code       |        登入碼     |   Y   |
-|         ULast_In_Time       |     最後登入時間  |   Y   |
-|          UBuild_Time        |     帳號建立時間  |   N   |
-|            UEnabled         |       啟用狀態    |   N   |
-|         In_Learn_Time       |     開始學習時間  |   N   |
-|          UReal_Name         |       真實姓名    |   Y   |
-|           UNickname         |         暱稱      |   Y   |
-|             UEmail          |         信箱      |   Y   |
-
-*   __chu_target__
-
 |       欄位名稱 (English)    | 欄位名稱 (Chinese)|  NULL |    KEY    |
 |-----------------------------|-------------------|-------|-----------|
 |              UID            |      使用者帳號   |   N   |  PRIMARY  |
 |              GID            |       標的編號    |   N   |  FOREIGN  |
-|           UPassword         |         密碼      |   N   |
-|          ULogged_code       |        登入碼     |   Y   |
-|         ULast_In_Time       |     最後登入時間  |   Y   |
-|          UBuild_Time        |     帳號建立時間  |   N   |
-|            UEnabled         |       啟用狀態    |   N   |
-|         In_Learn_Time       |     開始學習時間  |   N   |
-|          UReal_Name         |       真實姓名    |   Y   |
-|           UNickname         |         暱稱      |   Y   |
-|             UEmail          |         信箱      |   Y   |
-|             UEmail          |         信箱      |   Y   |
-|             UEmail          |         信箱      |   Y   |
-|             UEmail          |         信箱      |   Y   |
+|           UPassword         |         密碼      |   N   |           |
+|          ULogged_code       |        登入碼     |   Y   |           |
+|         ULast_In_Time       |     最後登入時間  |   Y   |           |
+|          UBuild_Time        |     帳號建立時間  |   N   |           |
+|            UEnabled         |       啟用狀態    |   N   |           |
+|         In_Learn_Time       |     開始學習時間  |   N   |           |
+|          UReal_Name         |       真實姓名    |   Y   |           |
+|           UNickname         |         暱稱      |   Y   |           |
+|             UEmail          |         信箱      |   Y   |           |
+
+*   __chu_target__
+
+|       欄位名稱 (English)    |       欄位名稱 (Chinese)       |  NULL |    KEY    |
+|-----------------------------|--------------------------------|-------|-----------|
+|              TID            |          標的編號              |   N   |  PRIMARY  |
+|             TName           |          標的名稱              |   N   |           |
+|           TLearn_Time       |          學習時間              |   N   |           |
+|             MapID           |           地圖ID               |   N   |           |
+|            Map_Url          |           地圖URL              |   N   |           |
+|           FloorName         |    學習標的所在的樓層名稱      |   N   |           |
+|            BlockName        |    學習標的所在的區塊名稱      |   N   |           |
+|            BlockMap         | 學習標的所在的樓層區塊地圖名稱 |   N   |           |
+|           CourseName        |    學習標的所在的地圖名稱      |   N   |           |
+|           MaterialID        |           教材ID               |   N   |           |
+|          Material_Url       |           教材URL              |   N   |           |
+|             PLj             |          人數上限              |   N   |           |
+|              Mj             |          目前人數              |   N   |           |
+
 
 
 
