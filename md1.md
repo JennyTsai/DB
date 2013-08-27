@@ -161,7 +161,13 @@
 |       Theme_Introduction    |           描述                 |   varchar(70)  |   N   |           |
 
 
+*   __chu_belong__ ( 屬於 Table ) → 主題、標的間關係
 
+|       欄位名稱 (English)    |       欄位名稱 (Chinese)       |    DataType    |  NULL |        KEY         |
+|-----------------------------|--------------------------------|----------------|-------|--------------------|
+|             TID             |          標的編號              |    int(10)     |   N   |  UNIQUE & FOREIGN  |
+|           ThemeID           |          主題序號              |    int(10)     |   N   |  UNIQUE & FOREIGN  |
+|           Weights           |            權重                |     float      |   N   |                    |
 
 
 
