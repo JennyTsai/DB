@@ -170,6 +170,58 @@
 |           Weights           |            權重                |     float      |   N   |                    |
 
 
+*   __chu_edge__ ( EDGE Table ) → 標的、標的間關係
+
+|       欄位名稱 (English)    |       欄位名稱 (Chinese)       |    DataType    |  NULL |        KEY         |
+|-----------------------------|--------------------------------|----------------|-------|--------------------|
+|             Ti              |          標的編號(i)           |    int(10)     |   N   |  UNIQUE & FOREIGN  |
+|             Tj              |          標的編號(j)           |   varchar(15)  |   N   |  UNIQUE & FOREIGN  |
+|           MoveTime          |           移動時間             |   varchar(20)  |   N   |                    |
+|           Distance          |             距離               |   varchar(20)  |   N   |                    |
+
+
+*   __chu_recommend__ ( 推薦 Table ) → 使用者、標的間關係
+
+|       欄位名稱 (English)    |       欄位名稱 (Chinese)       |    DataType    |  NULL |        KEY         |
+|-----------------------------|--------------------------------|----------------|-------|--------------------|
+|             TID             |          標的編號              |    int(10)     |   N   |  UNIQUE & FOREIGN  |
+|             UID             |          使用者帳號            |   varchar(30)  |   N   |  UNIQUE & FOREIGN  |
+|            Order            |       系統推薦標地順序         |    int(50)     |   N   |                    |
+
+
+*   __chu_study__ ( study Table ) → 使用者、標的間關係
+
+|       欄位名稱 (English)    |       欄位名稱 (Chinese)       |    DataType    |  NULL |        KEY         |
+|-----------------------------|--------------------------------|----------------|-------|--------------------|
+|             TID             |          標的編號              |    int(10)     |   N   |  UNIQUE & FOREIGN  |
+|             UID             |         使用者帳號             |   varchar(30)  |   N   |  UNIQUE & FOREIGN  |
+|             QID             |       答題的題目編號           |    int(10)     |   Y   |                    |
+|            Answer           |          答題對錯              |   varchar(5)   |   Y   |                    |
+|          Answer_Time        |          回答時間              |   varchar(10)  |   Y   |                    |
+|         In_TargetTime       |        進入標的時間            |    datetime    |   N   |                    |
+|         Out_TargetTime      |        離開標的時間            |    datetime    |   Y   |                    |
+|            TCheck           |      有無正確到推薦點          |   varchar(5)   |   N   |                    |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
