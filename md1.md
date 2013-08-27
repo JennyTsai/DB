@@ -100,3 +100,19 @@
         + user_table → table名稱
         + search_item → 要搜尋項目
         + where_string → WHERE條件字串
+
+***
+***
+
+## Server 端資料庫名稱及欄位名稱對照表
+
+
+###user Table
+
+| chu_user|
+------------
+| 欄位名稱 (English)| 欄位名稱 (Chinese)|
+-----------------------------------------
+
+
+
